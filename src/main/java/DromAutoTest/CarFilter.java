@@ -63,5 +63,7 @@ public class CarFilter {
         WebElement show = driver.findElement(By.xpath("//div[text()='Показать']"));
             show.click();
 
+        driver.close();
+
     }
 }

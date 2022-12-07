@@ -27,6 +27,6 @@ public class Autorization {
             favorite.click();
 
 
-
+        driver.close();
     }
 }
